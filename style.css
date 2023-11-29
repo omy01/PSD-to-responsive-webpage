@@ -1,0 +1,260 @@
+
+  body{
+    /*font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+     font-weight: 400;
+     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner start here */
+.container {
+     width: 1200px;
+  overflow: hidden;
+   margin: auto; 
+       overflow: hidden;
+
+}
+.banner-img{
+    width: 6px;
+  float: left;
+  width: 1%;
+  height: 141px;
+}
+.banner-heading{
+    margin-left: 15px;
+    margin-bottom: 8%;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.banner-text-wrap {
+  width: 50%;
+  float: left;
+  margin: 4% 5%;
+}
+.banner-img-right{
+
+}
+.red-color{
+    color: #da3f5f;
+}
+.btn1 {
+  padding: 15px 30px;
+  background-color: #ff4500;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  border: none;
+}
+.banner-man{
+  max-width: 25%;
+}
+/* banner end here */
+
+/* start Become a web developer */
+.developer-header{
+    font-size: 50px;
+    margin-bottom: 8%;
+    font-family: 'Playfair Display', serif;
+}
+.developer-header-wrap {
+  text-align: center;
+}
+/* single strt here */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /*width: 100%;*/
+  text-align: left;
+  gap: 60px;
+}
+.grid-container h3{
+    margin-bottom: 8%;
+    margin-top: 5%;
+    font-size: 25px;
+}
+.grid-item{
+    /*margin-left: 20%;*/
+  border-radius: 10%;
+  padding: 5%;
+ /* width: 365px;*/
+}
+.grid-img-container{}
+.grid-item img{
+       max-width: 30%;
+}
+.bg1{
+    background-color: #87ceea;
+}
+.bg2{
+    background-color: #a4eb98;
+}
+.bg3{
+    background-color: #f4b8c0;
+}
+/* single strt here */
+/* end Become a web developer */
+
+
+
+/* start Develop your developer skill */
+.skill-img-container {
+  float: left;
+  width: 90%;
+  position: relative;
+}
+.skill-img-container img {
+  max-width: 85%;
+  float: right;
+}
+
+.btn2{
+    padding: 15px 30px;
+  background-color: #ff4500;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 25px;
+  border: none;
+}
+.skill-container {
+  margin: 5% 0 10% 0;
+  display: grid;
+  grid-template-columns: 500px auto;
+  gap: 15px;
+}
+.skill-text-wrap{}
+.skill-text-wrap div{
+    padding-top: 20px;
+    margin-right: 10%;
+}
+.skill-text-wrap h1{
+    font-size: 50px;
+  margin-bottom: 25px;
+  font-family: 'Playfair Display', serif;
+}
+.icon {
+  position: absolute;
+  top: 35px;
+  z-index: -1;
+  width: 29%;
+  left: 0;
+}
+
+/* end Develop your developer skill */
+
+
+
+/* start learn and measure your skill */
+.measure-container{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 716px auto;
+    gap: 100px;
+}
+.measure-text-wrap {
+   /* width: 80%;
+    padding: 2% 3% 2% 10%;*/
+}
+.measure-text-wrap h1{
+    font-size: 50px;
+  margin-bottom: 25px;
+  font-family: 'Playfair Display', serif;
+}
+.measure-img-container {
+    position: relative;
+   width: 99%;
+}
+.measure-img-container img {
+  max-width: 90%;
+
+}
+.shape-3 {
+    position: absolute;
+    width: 30%;
+    right: -5px;
+    bottom: -32px;
+    z-index: -1;
+}
+/* end learn and measure your skill */
+/* start sofascore application */
+
+.section-header{
+    margin-bottom: 8%;
+}
+.section-header h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.parent-img-text{
+    width: 100%;
+    margin-bottom: 8%;
+    display: flex;
+}
+.img-parent{
+    width: 50%;
+  text-align: center;
+  display: -webkit-inline-box;
+  position: relative;
+}
+.shape-1{
+    width: 15%;
+      bottom: 88%;
+   left: 34%;
+  z-index: -1;
+  position: absolute;
+}
+.shape-2{
+    width: 15%;
+  position: absolute;;
+  left: 38%;
+  top: 70%;
+  z-index: -1;
+}
+.mobile{
+    width: 25%;
+    border-radius: 15px;
+}
+/* text area css here */
+.text-content{
+    width: 50%;
+}
+.btn2{}
+/* end sofascore application */
+/* footer start here */
+footer{
+    background-color:#000000 ;
+}
+.text-content h1{
+    margin-bottom: 8%;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+.text-content p{
+    margin-bottom: 5%;
+    width: 80%;
+}
+.footer-wrap{
+    text-align: center;
+    color: white ;
+    line-height: 60px;
+    padding: 20px 0;
+}
+.footer-wrap h1{
+    color: white ;
+    font-family: 'Playfair Display', serif;
+}
+/* footer end here */
+
+
